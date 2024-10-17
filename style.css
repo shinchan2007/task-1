@@ -1,0 +1,55 @@
+.textbar{
+    width:300px;
+    margin:auto;
+    
+}
+
+.container{
+    border: 2px solid black;
+    border-radius:30px ;
+    width:300px;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items:center;
+    margin: 0px 15px;
+    
+   
+}
+.button{
+    background-color: aqua;
+    width: 60px;
+    height: 40px;
+    border:3px  black;
+    border-radius: 20px;
+    margin: 0px auto 10px;
+    border-style:inset;
+    border-color: rgb(75, 236, 234);
+    font-size: large;
+    font-weight: bolder;
+}
+.last{
+    grid-row: span 2;
+   
+}
+.equals{
+    height:100px;
+}
+
+.form2{
+   margin:30px 5px ;
+    background-color: rgb(104, 101, 101);
+    border-radius: 30px;
+ }
+.form1{
+    border: 2px solid black;
+    margin:15px 500px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgb(80, 80, 80);
+}
