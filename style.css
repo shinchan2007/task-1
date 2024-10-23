@@ -1,7 +1,7 @@
 .textbar{
     width:300px;
     margin:auto;
-    
+    display:grid;
 }
 
 .container{
@@ -12,12 +12,14 @@
     background-color: aquamarine;
     font-size: xx-large;
     font-weight: bolder;
+    display:grid;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-items:center;
     margin: 0px 15px;
+    display:grid;
     
    
 }
@@ -32,24 +34,29 @@
     border-color: rgb(75, 236, 234);
     font-size: large;
     font-weight: bolder;
+    display:grid;
 }
 .last{
     grid-row: span 2;
+    display:grid;
    
 }
 .equals{
     height:100px;
+    display:grid;
 }
 
 .form2{
    margin:30px 5px ;
     background-color: rgb(104, 101, 101);
     border-radius: 30px;
+    display:grid;
  }
 .form1{
     border: 2px solid black;
     margin:15px 500px;
     margin-top: 60px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(80, 80, 80);
+    display:grid;
 }

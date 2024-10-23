@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head  lang="en">
+<html >
+    <head  lang="en" >
         <title>CALCULATOR</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +11,38 @@
     <body>
        
         <form class="form1">
-            <div class="textbar form2">
-            <input type="text" class="container ">
+            <div class="textbar form2" >
+            <input type="text" class="container "id="text" value=0>
             </div>
             <div class="grid">
             
-                <div><input type="submit" value="C" class="button first"></div>
-                <div><input type="submit" value="AC" class="button"></div>
-                <div><input type="submit" value="%" class="button"></div>
-                <div><input type="submit" value="/" class="button"></div>
-                <div><input type="submit" value="7" class="button"></div>
-                <div><input type="submit" value="8" class="button"></div>
-                <div><input type="submit" value="9" class="button"></div>
-                <div><input type="submit" value="X" class="button"></div>
-                <div><input type="submit" value="4" class="button"></div>
-                <div><input type="submit" value="5" class="button"></div>
-                <div><input type="submit" value="6" class="button"></div>
-                <div><input type="submit" value="-" class="button"></div>
-                <div><input type="submit" value="1"class="button"></div>
-                <div><input type="submit" value="2"class="button"></div>
-                <div><input type="submit" value="3"class="button"></div>
-                <div class="last"><input type="submit" value="+" class="button equals" ></div>
-                <div><input type="submit" value="0"class="button"></div>
-                <div><input type="submit" value="."class="button"></div>
-                <div><input type="submit" value="="class="button "></div>
-
+                <div><input type="button" value="C" class="button first" id="c"></div>
+                <div><input type="button" value="AC" class="button" id="ac"></div>
+                <div><input type="button" value="%" class="button"  onclick="func('%')"></div>
+                <div><input type="button" value="/" class="button"  onclick="func('/')"></div>
+                <div><input type="button" value="7" class="button"  onclick="func('7')"></div>
+                <div><input type="button" value="8" class="button"  onclick="func('8')"></div>
+                <div><input type="button" value="9" class="button"  onclick="func('9')"></div>
+                <div><input type="button" value="X" class="button"  onclick="func('*')"></div>
+                <div><input type="button" value="4" class="button"  onclick="func('4')"></div>
+                <div><input type="button" value="5" class="button"  onclick="func('5')"></div>
+                <div><input type="button" value="6" class="button"  onclick="func('6')"></div>
+                <div><input type="button" value="-" class="button"  onclick="func('-')"></div>
+                <div><input type="button" value="1"class="button"   onclick="func('1')"></div>
+                <div><input type="button" value="2"class="button"   onclick="func('2')"></div>
+                <div><input type="button" value="3"class="button"   onclick="func('3')"></div>
+                <div class="last"><input type="button" value="+"    class="button equals" onclick="func('+')"></div>
+                <div><input type="button" value="0"class="button"   onclick="func('0')"></div>
+                <div><input type="button" value="."class="button"   onclick="func('.')"></div>
+                <div><input type="button" value="="class="button " id="="></div>
+            
+           
+            
                     
                 </div>
         </form>
+        <script src="script.js">
+
+        </script>
     </body>
 </html>
