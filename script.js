@@ -1,3 +1,4 @@
+confirm("You can also use your keyboard keys to perform quick calculations.");
 let ac    = document.getElementById('ac');
 let text = document.getElementById("text");
 let c  = document.getElementById("c");
