@@ -1,37 +1,55 @@
-<html lang="en"style="background-color: black;">
-
-<head >
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <style>
-       button {
-       
-            margin-top: 50vh;
-            color:rgba(255, 255, 255,100);
-            text-shadow: 0px 0px 30px rgba(255, 255, 255,1);
-            background-color: blueviolet;
-            font-size: larger;
-            display: flex;
-            border:none;
-            border-radius: 5px;
-            border-color: blueviolet;
-            box-shadow: 0px 0px 20px rgba(158, 0, 215, 0.5);
-            transition: box-shadow 0.3s ease;
-            
-       }
-       button:hover{
-        box-shadow: 0px 0px 30px rgba(158, 0, 215, 1) ;
-        transform: translatey(-10px);
-       }
-
-       div{
-        justify-items: center;
-       }
-   </style>
-   <div><button>glowing button</button></div>
+*{
+    background-color: rgb(19, 232, 225);
+}
+input{
+    display:block;
+    min-width:20vw;
+    min-height: 5vh;
+    background-color: blueviolet;
+}
+input:hover{
+    box-shadow:0px 0px 10px rgb(187, 14, 210);
+    transition: box-shadow 1s ease;
     
-</body>
-</html>
+}
+.button{
+    display:grid;
+    min-width:5vw;
+    min-height: 5vh;
+    background-color: rgb(247, 0, 255);
+}
+button:hover{
+    box-shadow:0px 0px 40px rgb(211, 0, 238);
+    transition: box-shadow 1s ease;
+}
+.plus{
+    min-height:13vh;
+}
+div{
+    display: inline-block;
+    width:100%;
+    margin:auto;
+    place-items: center;
+    
+}
+table{
+    display: grid;
+    width:30vw;
+    height: 30vh;
+}
+tr{
+    height: 8vh;
+}
+tr .line {
+    height: 15vh;
+}
+.line input{
+    background-color: rgb(161, 198, 230);
+    
+
+}
+input{
+    border: 1px solid rgb(207, 14, 217);
+    border-radius: 10px;
+    background-color:rgb(213, 17, 223,)
+}
