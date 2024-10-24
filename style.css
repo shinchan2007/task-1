@@ -1,62 +1,44 @@
-.textbar{
-    width:300px;
-    margin:auto;
-    display:grid;
+*{
+    background-color: rgb(19, 232, 225);
 }
-
-.container{
-    border: 2px solid black;
-    border-radius:30px ;
-    width:300px;
-    height: 40px;
-    background-color: aquamarine;
-    font-size: xx-large;
-    font-weight: bolder;
-    display:grid;
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items:center;
-    margin: 0px 15px;
-    display:grid;
-    
-   
+input{
+    display:block;
+    min-width:20vw;
+    min-height: 5vh;
 }
 .button{
-    background-color: aqua;
-    width: 60px;
-    height: 40px;
-    border:3px  black;
-    border-radius: 20px;
-    margin: 0px auto 10px;
-    border-style:inset;
-    border-color: rgb(75, 236, 234);
-    font-size: large;
-    font-weight: bolder;
     display:grid;
+    min-width:5vw;
+    min-height: 5vh;
+    
 }
-.last{
-    grid-row: span 2;
-    display:grid;
-   
+.plus{
+    min-height:13vh;
 }
-.equals{
-    height:100px;
-    display:grid;
+div{
+    display: inline-block;
+    width:100%;
+    margin:auto;
+    place-items: center;
+    
 }
+table{
+    display: grid;
+    width:30vw;
+    height: 30vh;
+}
+tr{
+    height: 8vh;
+}
+tr .line {
+    height: 15vh;
+}
+.line input{
+    background-color: aliceblue;
 
-.form2{
-   margin:30px 5px ;
-    background-color: rgb(104, 101, 101);
-    border-radius: 30px;
-    display:grid;
- }
-.form1{
-    border: 2px solid black;
-    margin:15px 500px;
-    margin-top: 60px;
-    border-radius: 20px;
-    background-color: rgb(80, 80, 80);
-    display:grid;
+}
+input{
+    border: 1px solid rgb(57, 1, 60);
+    border-radius: 10px;
+    background-color:rgb(213, 17, 223)
 }
